@@ -1,0 +1,19 @@
+{
+  "name": "cryptowall",
+  "description": "An encryption/decryption service for Webtask.io",
+  "author": "Alan Hoffmeister <alanhoffmeister@gmail.com>",
+  "version": "1.0.0",
+  "main": "cryptowall.js",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "joi": "^10.4.1",
+    "webtask-tools": "^3.2.0"
+  }
+}
